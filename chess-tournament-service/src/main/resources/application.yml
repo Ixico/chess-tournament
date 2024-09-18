@@ -8,3 +8,5 @@ spring:
       hibernate:
         default_schema: chess_tournament
     open-in-view: false
+  flyway:
+    schemas: chess_tournament
