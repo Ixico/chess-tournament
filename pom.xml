@@ -23,7 +23,29 @@
     <properties>
         <revision>0.0.1-SNAPSHOT</revision>
         <java.version>21</java.version>
+
+        <!--        TEST        -->
+        <spock-core.version>2.4-M1-groovy-4.0</spock-core.version>
+        <groovy-all.version>4.0.16</groovy-all.version>
+        <gmavenplus-plugin.version>3.0.2</gmavenplus-plugin.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--        TEST        -->
+            <dependency>
+                <groupId>org.spockframework</groupId>
+                <artifactId>spock-core</artifactId>
+                <version>${spock-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.groovy</groupId>
+                <artifactId>groovy-all</artifactId>
+                <version>${groovy-all.version}</version>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 
 </project>
