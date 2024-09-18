@@ -1,10 +1,10 @@
-package io.github.ixico.chesstournament;
+package io.github.ixico.chesstournament.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ChessTournamentApplicationTests {
+class ChessTournamentServiceApplicationTests {
 
     @Test
     void contextLoads() {
