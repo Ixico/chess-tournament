@@ -43,6 +43,11 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>io.github.ixico</groupId>
+            <artifactId>chess-tournament-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
         <!--    TEST    -->
         <dependency>
